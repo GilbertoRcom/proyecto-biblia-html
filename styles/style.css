@@ -1,7 +1,7 @@
 body {
     /* font-family: "Lucida Console", "Courier New", monospace; */
-    font-family:'Arial';
-    background: linear-gradient(to right, rgb(0,119,81), rgb(0, 62, 113));
+    font-family: 'Arial';
+    background: linear-gradient(to right, rgb(0, 119, 81), rgb(0, 62, 113));
     padding: 0;
     margin: 0;
     color: #FFF;
@@ -16,8 +16,8 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: rgb(255,255,255);
-    
+    background-color: rgb(255, 255, 255);
+
 }
 
 li {
@@ -34,7 +34,7 @@ li a {
 }
 
 li a:hover:not(.active) {
-    background-color: rgb(238,238,238);
+    background-color: rgb(238, 238, 238);
 }
 
 .active {
@@ -42,10 +42,10 @@ li a:hover:not(.active) {
 }
 
 h1 {
-    background-color: rgb(0,60,113);
+    background-color: rgb(0, 60, 113);
     padding: 10px;
     margin: 0;
-    color: rgb(255,255,255);
+    color: rgb(255, 255, 255);
 }
 
 h2 {
@@ -80,6 +80,7 @@ p {
     max-width: 25%;
     height: auto;
 }
+
 .article {
     float: left;
     width: 70%;
@@ -90,7 +91,7 @@ p {
 }
 
 .footer {
-    background-color: rgb(0,121,83);
+    background-color: rgb(0, 121, 83);
     color: #FFF;
     /* font-size: 0.5; */
     padding: 10px;
@@ -108,7 +109,7 @@ table {
 }
 
 td {
-    font-family:'Arial';
+    font-family: 'Arial';
     border: 1px solid rgb(190, 190, 190);
     padding: 10px 20px;
 }
@@ -119,7 +120,7 @@ th {
     background-color: rgb(162, 162, 162);
 }
 
-.containerCenter{
+.containerCenter {
     display: flex;
     justify-content: center;
 }
@@ -143,4 +144,40 @@ div.gallery img {
 div.desc {
     padding: 15px;
     text-align: center;
+}
+
+input[type=text],
+input[type=email],
+textarea,
+select {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+input[type=submit] {
+    font-family: 'Calibri';
+    font-size: 1.5rem;
+    width: 100%;
+    background-color: #4CAF50;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+input[type=submit]:hover {
+    background-color: #45a049;
+}
+
+div.contenedor-formulario {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
 }
